@@ -22,7 +22,7 @@ export class MenuComponent {
           {
             label: 'Textos y Fechas',
             icon: 'pi pi-align-left',
-            routerLink: ''
+            routerLink: 'basic'
           },
           {
             label: 'Números',
@@ -41,8 +41,9 @@ export class MenuComponent {
         icon: 'pi pi-cog',
         items: [
           {
-            label: 'Otro Elemento',
-            icon: 'pi pi-cog'
+            label: 'Custom Pipes',
+            icon: 'pi pi-cog',
+            routerLink:'custom'
           }
         ]
       }
